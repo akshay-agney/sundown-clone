@@ -16,6 +16,7 @@
 html, body {
      height: 100%;
      width: 100%;
+     /* background-image: url(); */
 }
 
 .page1{
@@ -277,5 +278,65 @@ nav{
 .page3{
    min-height: 100vh;
     width: 100%;
-    background-color: aqua;
+    background-color: #EFEAE3;
+    padding: 4vw 0;
+}
+
+.elem{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    /* background-color: #ff321b; */
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    border-bottom: 1px solid #808080c5;
+    z-index: 9;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.elem h2{
+    font-size: 3vw;
+    position: relative;
+    font-family: neu;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #FF9831;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.elem:hover .overlay{
+    top: 0;
+}
+
+.elem-inner-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.2vw;
+    position: relative;
+}
+.elem-inner-right h4{
+    color: #808080c5;
+}
+
+.element-container{
+
+}
+.fixed-image{
+    height: 30vw;
+    width: 22vw;
+    background-color: red;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    top: 26%;
+    display: none;
+    background-size: cover;
+    background-position: center;
 }
