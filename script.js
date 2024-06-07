@@ -1,7 +1,7 @@
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('.main'),
-//     smooth: true
-// });
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('.main'),
+    smooth: true
+});
 let fixedImg = document.querySelector(".fixed-image")
 let elementContainer = document.querySelector(".element-container")
 

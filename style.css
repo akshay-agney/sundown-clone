@@ -16,7 +16,6 @@
 html, body {
      height: 100%;
      width: 100%;
-     /* background-image: url(); */
 }
 
 .page1{
@@ -77,6 +76,8 @@ nav{
 .nav-part2 h4:hover a{
     color: aliceblue;
 }
+
+
 .center{
     height: 65vh;
     display: flex;
@@ -172,7 +173,7 @@ nav{
 }
 
 .page2{
-    padding: 8vw 0;
+    padding-top: 8vw ;
     min-height: 100vh;
     width: 100%;
     background-color: #EFEAE3;
@@ -274,6 +275,20 @@ nav{
         transform: translate(-10%,10%) skew(-15deg);
     }
 }
+.page2-left-bottom{
+    position: relative;
+    padding: 0 2VW;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.orange-dot{
+    height: 10px;
+    width: 10px;
+    background-color: #fe3f0a;
+    border-radius: 50%;
+}
 
 .page3{
    min-height: 100vh;
@@ -286,7 +301,6 @@ nav{
     position: relative;
     height: 150px;
     width: 100%;
-    /* background-color: #ff321b; */
     display: flex;
     align-items: center;
     padding: 0 2vw;
@@ -324,13 +338,9 @@ nav{
     color: #808080c5;
 }
 
-.element-container{
-
-}
 .fixed-image{
     height: 30vw;
     width: 22vw;
-    background-color: red;
     border-radius: 10px;
     position: fixed;
     z-index: 99;
@@ -340,3 +350,28 @@ nav{
     background-size: cover;
     background-position: center;
 }
+
+.page3-effect{
+    padding: 5vw 3vw;
+    display: flex;
+    align-items: center;
+}
+
+/* .nav-part2 h4:hover i{
+    color: aliceblue;
+}
+.nav-part2 h4 i{
+    position: relative;
+} */
+/* #right-arrow{
+    position: relative;
+} */
+/* #right-arrow::before{
+    content: "";
+    height: 5px;
+    width: 10px;
+    position: absolute;
+    background-color: black;
+} */
+
+/* time: 2:41:17  start */
