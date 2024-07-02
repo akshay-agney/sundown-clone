@@ -34,4 +34,8 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
-//
+
+const loader = document.getElementById('loader')
+setTimeout(function(){
+    loader.style.top = '-100%'
+},4000)
